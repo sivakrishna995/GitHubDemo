@@ -2,23 +2,17 @@ package com.github;
 
 public class Test2 {
 	
-	
+	public void method() {
+		System.out.println("Hi this is Java");
+	}
 
 		public static void main(String[] args) {
 			
-			String hungry="yes";
-			
-			if(hungry=="yes") {
-				System.out.println("eat Something");
-				
-			}
-			else {
-				System.out.println("Do Work");
-			}
-
-		}
+			Test2 t=new Test2();
+			t.method();
 
 	}
+}
 
 
 
